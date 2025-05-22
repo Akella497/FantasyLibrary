@@ -1,0 +1,80 @@
+* {
+    margin: 25px;
+}
+
+body {
+    background: url(https://i.ibb.co/j9TtDK6Y/123.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body::before {
+ content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.general {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.general > .character {
+    font-size: 20pt;
+    text-align: justify;
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+
+.zoom:hover {
+   transform: scale(1.2) !important;
+}
+
+/*Изображения*/
+
+a, a:hover { 
+    text-decoration: none;
+   color: white;
+   text-shadow: 
+    -1px -1px 0 black,
+     0   -1px 0 black,
+     1px -1px 0 black,
+    -1px  0   0 black,
+     1px  0   0 black,
+    -1px  1px 0 black,
+     0    1px 0 black,
+     1px  1px 0 black;
+}
+
+.icon {
+    justify-content: center;
+    width: 50%;
+    transition: transform 0.5s ease;
+    border: 3px solid black;
+}
+
+.icon2 {
+    justify-content: center;
+    width: 43%;
+    transition: transform 0.5s ease;
+    border: 3px solid black;
+}
+
+.icon3 {
+
+    width: 38%;
+    transition: transform 0.5s ease;
+    border: 3px solid black;
+}

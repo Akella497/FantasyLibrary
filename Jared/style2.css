@@ -1,0 +1,71 @@
+body {
+    background: url(https://i.ibb.co/j9TtDK6Y/123.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 14pt;
+    text-align: justify;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+.icon {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 20%;
+    transition: transform 0.5s ease;
+    border: 3px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.content-wrapper {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+}
+
+h1 {
+    color: #8B0000;
+    text-align: center;
+    border-bottom: 2px solid #8B0000;
+    padding-bottom: 0.5rem;
+    margin-bottom: 15px;
+}
+
+h3 {
+    text-align: center;
+}
+
+blockquote {
+    font-style: italic;
+    border-right: 3px solid #8B0000;
+    padding-right: 1rem;
+    margin: 1.5rem 0;
+    color: #000000;
+    text-align: right;
+}
+
+.family-section {
+    margin-top: 2rem;
+    background: rgba(139, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 5px;
+}
