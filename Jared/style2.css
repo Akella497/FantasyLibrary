@@ -41,6 +41,9 @@ body::before {
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     margin-bottom: 1rem;
+    max-width: unset;
+    width: 60%;
+    padding: 5%;
 }
 
 h1 {
@@ -81,8 +84,4 @@ blockquote {
 
 a, a:hover {
     color: black;
-}
-
-.summary {
-    text-align: center;
 }
