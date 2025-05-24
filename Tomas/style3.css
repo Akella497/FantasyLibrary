@@ -1,5 +1,6 @@
 body {
-    background: url(https://i.ibb.co/j9TtDK6Y/123.jpg);
+    background: url(https://i.ibb.co/ksT3YmC7/image.png);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -50,6 +51,14 @@ h1 {
     margin-bottom: 15px;
 }
 
+h2 {
+    color: #8B0000;
+    text-align: center;
+    border-bottom: 2px solid #8B0000;
+    padding-bottom: 0.5rem;
+    margin-bottom: 15px;
+}
+
 h3 {
     text-align: center;
 }
@@ -68,4 +77,8 @@ blockquote {
     background: rgba(139, 0, 0, 0.1);
     padding: 1rem;
     border-radius: 5px;
+}
+
+a, a:hover {
+    color: black;
 }
