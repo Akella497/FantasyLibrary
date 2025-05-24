@@ -82,3 +82,12 @@ blockquote {
 a, a:hover {
     color: black;
 }
+
+details {
+    text-decoration: none;
+    cursor: default;
+}
+
+summary {
+    text-align: center;
+}
