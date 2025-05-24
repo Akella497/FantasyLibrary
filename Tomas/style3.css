@@ -8,6 +8,12 @@ body {
     text-align: justify;
 }
 
+@media (max-width: 390px) {
+    body {
+        font-size: 9pt;
+    }
+}
+
 body::before {
     content: '';
     position: fixed;
